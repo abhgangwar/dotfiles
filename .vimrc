@@ -31,17 +31,15 @@ set hlsearch
 colorscheme Mustang
 set t_Co=256
 
-"Key binding for stop hlsearch from highlighting search results
+"Key binding to remove highlights 
 nmap <silent> <C-N> :silent noh<CR>
 
 "auto word wrapping
 set textwidth=100
 
-"For temporary files and backups. They will be stored in the temp directory
+"For temporary files and backups. They will be stored in the /tmp directory
 set backupdir=/tmp
 set directory=/tmp
 
 "Tab key inserts spaces instead.
 "set expandtab
-
-
