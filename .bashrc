@@ -15,9 +15,11 @@ fi
 #export PS1='[\[\e[0;31m\]\u@\[\e[0;31m\]\h\[\e[0;90m\] \W\[\e[0m\]]\[\e[0;32m\]\$\[\e[m\] '
 export PS1='(\[\e[0;33m\]\W\[\e[m\])\[\e[0;32m\] \$ \[\e[m\]'
 
+# Preven gnome-ssh-askpass from popping up
+unset SSH_ASKPASS
+
 
 #My aliases
-
 alias devices='cd /run/media/nj';
 alias myspace='cd /home/nj/Documents/learn'
 alias rm='rm -i'
@@ -25,8 +27,8 @@ alias feh='feh -B black --geometry 1280x768  '
 alias tm='tmux'
 alias mv='mv -i'
 alias cint='LD_LIBRARY_PATH=/home/nj/.local/lib cint'
+				
 # Functions
-
 back()
 {
 	"$@" &>/dev/null &
