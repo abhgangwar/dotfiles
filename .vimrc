@@ -1,5 +1,6 @@
 "pathogen
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 "Settings to set slime plugin target to tmux
 let g:slime_target = "tmux"
@@ -27,7 +28,7 @@ set incsearch
 set hlsearch
 
 "Setting the colorscheme
-colorscheme mtang
+colorscheme Mustang
 set t_Co=256
 
 "Key binding for stop hlsearch from highlighting search results
