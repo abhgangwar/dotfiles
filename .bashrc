@@ -60,7 +60,7 @@ function kiddo()
 connect()
 {
 	curr_dir=$(pwd);
-	cd /home/nj/Documents/learn-to-code/scripts/bashScripts/coll_server
+	cd /home/nj/Documents/learn/scripts/bashScripts/coll_server
 	
 	if [ ! -f coll_server.tar.gz.gpg ] ; then
 		echo "The main file doesn't exist. Exiting... "

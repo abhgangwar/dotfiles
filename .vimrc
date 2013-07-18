@@ -43,3 +43,7 @@ set directory=/tmp
 
 "Tab key inserts spaces instead.
 "set expandtab
+"
+
+" Key bindings
+let g:user_zen_expandabbr_key='<C-k>'
