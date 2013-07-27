@@ -27,7 +27,8 @@ alias feh='feh -B black --geometry 1280x768  '
 alias tm='tmux'
 alias mv='mv -i'
 alias cint='LD_LIBRARY_PATH=/home/nj/.local/lib cint'
-				
+alias node_repl="node -e \"require('repl').start({ignoreUndefined: true})\""				
+
 # Functions
 back()
 {
