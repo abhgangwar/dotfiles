@@ -36,20 +36,6 @@ back()
 
 }
 
-sps() 
-{
-	
-	if [ ${myps} = "small" ] 
-	then
-		. ~/.bashrc
-		export myps=big
-	else
-		export PS1='(\[\e[0;37m\]\W\[\e[m\])\[\e[0;32m\] \$ \[\e[m\]'
-		export myps=small
-	fi
-
-}
-
 function kiddo()
 {
     echo -e "`date` \n\t\n\n"| cat - ~/Dropbox/README > ~/Dropbox/README.bak
