@@ -18,6 +18,10 @@ export PATH=/usr/java/default/bin:/usr/local/heroku/bin:${PATH}:~/.local/bin:/ho
 export http_proxy=http://pacifier:3128
 export https_proxy=http://pacifier:3128
 export ftp_proxy=http://pacifier:3128
+export HTTP_PROXY=http://pacifier:3128
+export HTTPS_PROXY=http://pacifier:3128
+export FTP_PROXY=http://pacifier:3128
+
 
 
 
