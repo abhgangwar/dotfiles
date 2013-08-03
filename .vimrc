@@ -13,10 +13,10 @@ filetype plugin on
 "defaults for indentation
 filetype plugin indent on
 set tabstop=4
-set expandtab
-set shiftwidth=4
-set softtabstop=4
 
+"python indentation with spaces
+autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 textwidth=0
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
 "Show line numbers
 set number
 
