@@ -11,6 +11,7 @@ syntax on
 filetype plugin on
 
 "defaults for indentation
+filetype plugin indent on
 set tabstop=4
 
 "python indentation with spaces
