@@ -49,3 +49,4 @@ set directory=/tmp
 
 " Key bindings
 let g:user_zen_expandabbr_key='<C-k>'
+imap <C-L> <C-k><cr><Esc>O<Tab>
