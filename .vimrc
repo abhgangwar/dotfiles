@@ -15,8 +15,11 @@ filetype plugin indent on
 set tabstop=4
 
 "python indentation with spaces
-autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 textwidth=0 foldmethod=indent
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 foldmethod=indent
+
+" No textwidth for html files and 2-spaced tabs
+autocmd FileType html setlocal expandtab shiftwidth=2 softtabstop=2 tabstop=2 textwidth=0 foldmethod=indent
+
 "Show line numbers
 set number
 
